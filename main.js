@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   app.setHeaderColor("#02bdde")
   app.setBackgroundColor("#fff")
   app.setBottomBarColor("#007ac9")
-  userChatId = user_data["id"]
 
   app.showScanQrPopup("Сканируй QR плиз", (callback) => {
     const data = {
