@@ -1,3 +1,5 @@
+const app = window.Telegram.WebApp
+
 document.addEventListener("DOMContentLoaded", () => {
   app.disableVerticalSwipes()
   app.expand()
