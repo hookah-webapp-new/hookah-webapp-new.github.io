@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     app.sendData(JSON.stringify(data))
+    app.closeScanQrPopup()
     app.close()
   })
 })
